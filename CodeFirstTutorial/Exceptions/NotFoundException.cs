@@ -1,6 +1,3 @@
 ﻿namespace CodeFirstTutorial.Exceptions;
 
-public class NotFoundException
-{
-    
-}
+public class NotFoundException(string mess) : Exception(mess);
